@@ -5,9 +5,9 @@ namespace tests;
 
 public class Tests
 {
-    private const string JSON_URL = "";
-    private const string CSV_URL = "";
-    private const string ZIP_URL = "";
+    private const string JSON_URL = "https://tomtar00.github.io/cli-app/data.json";
+    private const string CSV_URL = "https://tomtar00.github.io/cli-app/data.csv";
+    private const string ZIP_URL = "https://tomtar00.github.io/cli-app/data.zip";
     private CommandRegisty? _reg;
 
     [SetUp]
